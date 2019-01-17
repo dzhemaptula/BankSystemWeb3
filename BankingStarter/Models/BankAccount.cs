@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace BankingStarter.Models {
-    public class BankAccount {
+    public class BankAccount : IBankAccount {
         #region Properties
         private IList<Transaction> _transactions;
         private string _accountNumber;
