@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BankingStarter {
-    class Transaction {
+namespace BankingStarter.Models {
+    public class Transaction {
         public decimal Amount { get; private set; }
         public DateTime DateOfTrans { get; private set; }
         public TransactionType TransactionType { get; private set; }
