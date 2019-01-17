@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BankingStarter.Models;
+using System;
+
 
 namespace BankingStarter {
     class Program {
