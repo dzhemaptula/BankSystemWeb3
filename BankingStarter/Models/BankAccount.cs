@@ -47,6 +47,10 @@ namespace BankingStarter.Models {
         #endregion
 
         #region Constructors
+        /// <summary>
+        /// Constructor
+        /// </summary>
+        /// <param name="accountNumber">Number of the account</param>
         public BankAccount(string accountNumber) {
 
             AccountNumber = accountNumber;
